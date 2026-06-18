@@ -54,6 +54,8 @@ class Solution {
 
     int stairCase(vector<int>& cost){
 
+        if (cost.size() == 1) return cost[0];
+
         int second = cost[0];
         int first = cost[1];
         int ans = -1;
