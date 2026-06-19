@@ -48,7 +48,7 @@ public:
                 }
             }
         }
-
+        
         return dp[X];
     }
 };
